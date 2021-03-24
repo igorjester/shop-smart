@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,65 @@
   <title>smart shop</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
 
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="логотип">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Home+</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Services</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Pages+</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">News</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      
+        <div class="navigation">
+          <div class="navigation__wrap">
+          <a class="navigation__link" href="#">
+            <img class="navigation__icon" src="images/icons/loupe.png" alt="иконка">
+          </a>
+          </div>
+          <div class="navigation__inner">
+            <a class="navigation__link" href="#">
+              <img class="navigation__icon" src="images/icons/heart.png" alt="иконка">
+              <span class="navigation__nam">0</span>
+            </a>
+            <a class="navigation__link" href="#">
+              <img class="navigation__icon" src="images/icons/basket.png" alt="иконка">
+              <span class="navigation__nam">0</span>
+            </a>
+          </div>
+          <div class="navigation__wrap navigation--points">
+          <a class="navigation__link" href="#">
+            <img class="navigation__icon" src="images/icons/points.png" alt="иконка">
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
 
   <script slot="js/main.min.js"></script>
 </body>
+
 </html>
